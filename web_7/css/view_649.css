@@ -1,0 +1,132 @@
+input.vf__button {
+  float: left;
+  width: auto;
+  border: 1px solid #ccc;
+  padding: 3px 6px;
+  font: normal 12px Arial, Helvetica, sans-serif;
+  color: #000;
+  cursor: pointer;
+  background-color: #efefef;
+  text-decoration: none;
+}
+
+span.selected {
+  color:#405BA2;
+  border: 1px solid #CF9B00;
+}
+
+span.not-selected {
+  color: #AC3537;
+  border: none;
+}
+
+span.win_amt {
+ color: #000000;
+ font: normal 12px Arial, Helvetica, sans-serif;
+  
+  
+}
+
+span.matchNumber {
+  color: #04A107;
+  font: normal 12px Arial, Helvetica, sans-serif;
+  
+}
+
+span.matchBonusNumber {
+  color: #0000CC;
+  font: normal 12px Arial, Helvetica, sans-serif; 
+}
+
+span.notMatchNumber {
+  color: #D00000;
+  font: normal 12px Arial, Helvetica, sans-serif;
+  
+}
+
+div#top_nav_bar {
+  float: center;
+  border: 1px solid #ccc;
+  font: normal 12px Arial, Helvetica, sans-serif;
+  width: 400px;
+  
+
+}
+div#top_wel_msg {
+  float: right;
+  border: 1px solid #ccc;
+  font: normal 12px Arial, Helvetica, sans-serif;
+  width: 400px;
+
+
+}
+div#nav_years {
+  float: center;
+  border: 1px solid #ccc;
+  font: normal 12px Arial, Helvetica, sans-serif;
+  width: 400px;
+}
+div#nav_months {
+  float: center;
+  border: 1px solid #ccc;
+  font: normal 12px Arial, Helvetica, sans-serif;
+  width: 400px;
+  visibility: hidden;
+}
+div#nav_disp_limit {
+  float: center;
+  border: 1px solid #ccc;
+  font: normal 12px Arial, Helvetica, sans-serif;
+  width: 400px;
+  visibility: hidden;
+
+}
+
+
+
+.649Row {
+  
+  
+}
+
+input.vf__text,
+input.vf__text_tiny,
+input.vf__text_small,
+input.vf__text_large,
+input.vf__button,
+select.vf__one,
+select.vf__multiple,
+textarea.vf__text
+{
+  font: normal 12px Arial, Helvetica, sans-serif;
+  color: #666;
+  padding: 2px;
+  width: 147px;  
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+fieldset.vf__disabled input.vf__text,
+fieldset.vf__disabled input.vf__text_tiny,
+fieldset.vf__disabled input.vf__text_small,
+fieldset.vf__disabled input.vf__text_large,
+fieldset.vf__disabled input.vf__button,
+fieldset.vf__disabled select.vf__one,
+fieldset.vf__disabled select.vf__multiple,
+fieldset.vf__disabled textarea.vf__text
+{
+  border: 1px solid #ddd;
+  color: #aaa;
+  width: 147px;
+}
+
+
+
+select.vf__multiple {
+  width: 147px;
+  height: 84px;
+  font: normal 12px Arial, Helvetica, sans-serif;
+}
+
+
+}

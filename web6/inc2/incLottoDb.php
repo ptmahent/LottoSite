@@ -1,0 +1,15 @@
+<?php
+
+
+class LottoDb {
+  
+  function
+  
+  
+}
+
+
+
+
+
+?>

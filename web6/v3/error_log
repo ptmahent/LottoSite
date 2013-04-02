@@ -1,0 +1,9 @@
+[09-Dec-2011 22:59:59] PHP Parse error:  syntax error, unexpected ')', expecting T_VARIABLE or '$' in /home1/tswebtek/public_html/tswlotto/lotto/web6/v3/keno_stat_v2.php on line 114
+[09-Dec-2011 23:00:07] PHP Parse error:  syntax error, unexpected ')', expecting T_VARIABLE or '$' in /home1/tswebtek/public_html/tswlotto/lotto/web6/v3/keno_stat_v2.php on line 114
+[09-Dec-2011 23:00:15] PHP Parse error:  syntax error, unexpected ')', expecting T_VARIABLE or '$' in /home1/tswebtek/public_html/tswlotto/lotto/web6/v3/keno_stat_v2.php on line 114
+[09-Dec-2011 23:00:21] PHP Parse error:  syntax error, unexpected ')', expecting T_VARIABLE or '$' in /home1/tswebtek/public_html/tswlotto/lotto/web6/v3/keno_stat_v2.php on line 114
+[10-Dec-2011 00:18:51] PHP Parse error:  syntax error, unexpected $end in /home1/tswebtek/public_html/tswlotto/lotto/web6/v3/inc2/incOLGLottery.php on line 2051
+[10-Dec-2011 00:18:51] PHP Parse error:  syntax error, unexpected $end in /home1/tswebtek/public_html/tswlotto/lotto/web6/v3/inc2/incOLGLottery.php on line 2051
+[10-Dec-2011 00:19:13] PHP Parse error:  syntax error, unexpected $end in /home1/tswebtek/public_html/tswlotto/lotto/web6/v3/inc2/incOLGLottery.php on line 2051
+[10-Dec-2011 00:19:14] PHP Parse error:  syntax error, unexpected $end in /home1/tswebtek/public_html/tswlotto/lotto/web6/v3/inc2/incOLGLottery.php on line 2051
+[10-Dec-2011 00:19:21] PHP Parse error:  syntax error, unexpected $end in /home1/tswebtek/public_html/tswlotto/lotto/web6/v3/inc2/incOLGLottery.php on line 2051

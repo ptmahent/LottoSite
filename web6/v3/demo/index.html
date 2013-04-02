@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Creating a Windows-like interface with jQuery UI</title>
+		<!-- Load the jQuery UI CSS -->
+		<link rel="stylesheet" href="css/flick/jquery-ui-1.8.16.custom.css" type="text/css" />
+		
+		<!-- Load jQuery first before jQuery UI! -->
+		<script src="js/jquery-1.6.2.min.js"></script>
+		<script src="js/jquery-ui-1.8.16.custom.min.js"></script>
+		<script>
+		var _init = $.ui.dialog.prototype._init;
+		$.ui.dialog.prototype._init = function() {
+			_init.apply(this, arguments);
+			
+			var dialog_element = this;
+			var dialog_id = this.uiDialogTitlebar.next().attr('id');
+			
+			this.uiDialogTitlebar.append('<a href="#" id="' + dialog_id + 
+			'-minbutton" class="ui-dialog-titlebar-minimize ui-corner-all">'+
+			'<span class="ui-icon ui-icon-minusthick"></span></a>');
+			
+			$('#dialog_window_minimized_container').append(
+				'<div class="dialog_window_minimized ui-widget ui-state-default ui-corner-all" id="' + 
+				dialog_id + '_minimized">' + this.uiDialogTitlebar.find('.ui-dialog-title').text() + 
+				'<span class="ui-icon ui-icon-newwin"></div>');
+				
+			$('#' + dialog_id + '-minbutton').hover(function() {
+				$(this).addClass('ui-state-hover');
+			}, function() {
+				$(this).removeClass('ui-state-hover');
+			}).click(function() {
+				dialog_element.close();
+				$('#' + dialog_id + '_minimized').show();
+			});
+			
+			$('#' + dialog_id + '_minimized').click(function() {
+				$(this).hide();
+				dialog_element.open();
+			});
+		};
+		</script>
+		<script>
+			$(document).ready(function() {
+				$('#create_button').button().click(function() {
+					var create_dialog = $('#dialog_window_1');
+					var create_button = $(this);
+					if( create_dialog.dialog('isOpen') ) {
+						create_button.button('option', 'label', 'Create a new Window');
+						create_dialog.dialog('close');
+					} else {
+						create_button.button('option', 'label', 'Close Window');
+						create_dialog.dialog('open');
+					}
+				});
+				
+				$('#dialog_window_1').dialog({
+					width: 'auto',
+					height: 'auto',
+					autoOpen : false,
+					buttons: [
+						{
+							text: 'Create',
+							click: function() {
+								var div_count = $('.dialog_window').length + 1;
+								var div_id = 'dialog_window_' + div_count;
+								var div_title = $('#new_window_title').val();
+								var div_content = $('#new_window_content').val();
+								var buttons = new Array();
+								if( $('#alertbutton').is(':checked') ) {
+									buttons.push({
+										text: 'ALERT',
+										click: function() {
+											alert('ALERTING from Dialog Widnow: ' + div_title);
+										}
+									});
+								}
+								
+								if( $('#closebutton').is(':checked') ) {
+									buttons.push({
+										text: 'CLOSE',
+										click: function() {
+											$('#' + div_id).dialog('close');
+										}
+									});
+								}
+								
+								$('body').append('<div class="dialog_window" id="' + div_id + '">' + div_content + '</div>');
+				
+								var dialog = $('#' + div_id).dialog({
+									width: 'auto',
+									height: 'auto',
+									title : div_title,
+									autoOpen : true,
+									buttons: buttons
+								});
+							}
+						}
+					]
+				});
+				$('#buttonlist').buttonset();
+			});
+		</script>
+		
+		<style>
+		.dialog_form th {
+			text-align: left;
+		}
+		
+		.dialog_form textarea, .dialog_form input[type=text] {
+			width: 320px;
+		}
+		
+		#dialog_window_minimized_container {
+			position: fixed;
+			bottom: 0px;
+			left: 0px;
+		}
+		
+		.dialog_window_minimized {
+			float: left;
+			padding: 5px 10px;
+			font-size: 12px;
+			cursor: pointer;
+			margin-right: 2px;
+			display: none;
+		}
+		
+		.dialog_window_minimized .ui-icon {
+			display: inline-block !important;
+			position: relative;
+			top: 3px;
+			cursor: pointer;
+		}
+		
+		.ui-dialog .ui-dialog-titlebar-minimize {
+			height: 18px;
+			width: 19px;
+			padding: 1px;
+			position: absolute;
+			right: 23px;
+			top: 9px;
+		}
+		
+		.ui-dialog .ui-dialog-titlebar-minimize .ui-icon {
+			display: block;
+			margin: 1px;
+		}
+		
+		.ui-dialog .ui-dialog-titlebar-minimize:hover, .ui-dialog .ui-dialog-titlebar-minimize:focus {
+			padding: 0;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="dialog_window_minimized_container"></div>
+		<div id="dialog_window_1" class="dialog_window" title="Create a new <code>Dialog</code> Window">
+			<h3>Create a new <code>Dialog</code> Window</h3>
+			<table class="dialog_form">
+				<tr>
+					<th>Window Title</th>
+				</tr>
+				<tr>
+					<td><input type="text" id="new_window_title" /></td>
+				</tr>
+				<tr>
+					<th>
+						Window Content
+					</th>
+				</tr>
+				<tr>
+					<td>
+						<textarea id="new_window_content"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						Window Buttons
+					</th>
+				</tr>
+				<tr>
+					<td id="buttonlist">
+						<input type="checkbox" id="alertbutton" /><label for="alertbutton">ALERT</label>
+						<input type="checkbox" id="closebutton" /><label for="closebutton">CLOSE</label>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<button id="create_button">Create a new Window</button>
+	</body>
+</html>

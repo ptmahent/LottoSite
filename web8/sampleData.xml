@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RootElement>
+  <State>
+    <Name>Arizona</Name>
+    <Time>6 a.m.</Time>
+	<Notes>This is a note for Ar</Notes>
+  </State>
+  <State>
+    <Name>California</Name>
+    <Time>CA Time2.</Time>
+    <Notes>This is a note for California</Notes>
+  </State>
+</RootElement>

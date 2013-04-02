@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QueryResult>
+	<Match Type="Lotto649" WinningTicket="T" Prize="5.00" MatchedNumber="3,4,6" Date="20-10-2011">
+	</Match>
+	<Match Type="Lotto649" WinningTicket="T" Prize="5.00" MatchedNumber="3,4,6" Date="20-10-2011">
+	</Match>
+</QueryResult>

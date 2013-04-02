@@ -1,0 +1,9 @@
+.htaccess
+inc/class_db.php
+Lotto-New/*
+nbproject/*
+_web2/*
+web6/v3/inc2/class_db.php
+web6/v2/inc2/class_db.php
+web6/inc2/class_db.php
+net/eeboys.mdb

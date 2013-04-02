@@ -1,0 +1,13 @@
+[24-Oct-2011 15:10:40] PHP Parse error:  syntax error, unexpected '}' in /home1/tswebtek/public_html/tswlotto/lotto/web6/testKenoStat.php on line 656
+[24-Oct-2011 15:12:06] PHP Parse error:  syntax error, unexpected '}' in /home1/tswebtek/public_html/tswlotto/lotto/web6/testKenoStat.php on line 656
+[25-Oct-2011 06:09:15] PHP Parse error:  syntax error, unexpected ')' in /home1/tswebtek/public_html/tswlotto/lotto/web6/testKenoStat.php on line 100
+[25-Oct-2011 06:11:36] PHP Parse error:  syntax error, unexpected ')' in /home1/tswebtek/public_html/tswlotto/lotto/web6/testKenoStat.php on line 100
+[25-Oct-2011 08:01:19] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 64 bytes) in /home1/tswebtek/public_html/tswlotto/lotto/web6/testKenoStat_4.php on line 135
+[25-Oct-2011 08:03:04] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home1/tswebtek/public_html/tswlotto/lotto/web6/testKenoStat_4.php on line 135
+[25-Oct-2011 08:06:32] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home1/tswebtek/public_html/tswlotto/lotto/web6/testKenoStat_4.php on line 140
+[25-Oct-2011 10:54:59] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home1/tswebtek/public_html/tswlotto/lotto/web6/testKenoStat_4.php on line 140
+[25-Oct-2011 11:05:29] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home1/tswebtek/public_html/tswlotto/lotto/web6/testKenoStat_4.php on line 140
+[25-Oct-2011 11:09:09] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 24 bytes) in /home1/tswebtek/public_html/tswlotto/lotto/web6/testKenoStat_4.php on line 60
+[25-Oct-2011 11:12:15] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 24 bytes) in /home1/tswebtek/public_html/tswlotto/lotto/web6/testKenoStat_4.php on line 60
+[25-Oct-2011 11:13:42] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 71 bytes) in /home1/tswebtek/public_html/tswlotto/lotto/web6/testKenoStat_4.php on line 58
+[25-Oct-2011 11:19:13] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 24 bytes) in /home1/tswebtek/public_html/tswlotto/lotto/web6/testKenoStat_4.php on line 60

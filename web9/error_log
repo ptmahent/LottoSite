@@ -1,0 +1,5 @@
+[06-Oct-2011 11:54:35] PHP Warning:  include_once(inc/smarty/libs/Smarty.class.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home1/tswebtek/public_html/tswlotto/lotto/web_7/view_649.php on line 15
+[06-Oct-2011 11:54:35] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'inc/smarty/libs/Smarty.class.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/tswebtek/public_html/tswlotto/lotto/web_7/view_649.php on line 15
+[06-Oct-2011 13:54:36] PHP Fatal error:  Class 'Smarty' not found in /home1/tswebtek/public_html/tswlotto/lotto/web_7/view_649.php on line 170
+[06-Oct-2011 12:45:29] PHP Parse error:  syntax error, unexpected T_STRING in /home1/tswebtek/public_html/tswlotto/lotto/web_7/view_poker.php on line 325
+[06-Oct-2011 15:39:00] PHP Parse error:  syntax error, unexpected T_ELSE in /home1/tswebtek/public_html/tswlotto/lotto/web_7/check_keno.php on line 1142

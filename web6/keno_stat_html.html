@@ -1,0 +1,30 @@
+
+					
+					<html>
+					<head>
+					</head>
+					<body>
+					<pre>
+					// dt: 2 , 3, 4, 5, 7, 9, 10
+					// frst itr:pos num 2 -- st_dt 2, cur_step_by_cnt  1
+					// snd itr:  pos num 3 -- st_dt 2, pr_dt 2, cur_dt 3, c_date_diff = 1, cur_step_by_cnt 2
+					// thrd itr: pos num 4 -- st_dt 2, pr_dt 3, cur_dt 4, c_date_diff = 1, pr_date_diff = 1, cur_step_by_cnt 3
+					// frth itr: pos num 5 -- st_dt 2, pr_dt 4, cur_dt 5, c_date_diff = 1, pr_date_diff = 1, cur_step_by_cnt 4
+					// sxt itr: pos num 7 -- st_dt 2, pr_dt 5, cur_dt 7, c_date_diff = 2, pr_date_diff = 1 , pre_step_by_cnt = 4, cur_step_by_cnt 2
+						// ---> store db -> [st_dt: 2 --- pre step_by: 1 -- 4]
+						// --> st_dt: 5
+					// seven itr: pos num 9 -- st_dt 5, pr_dt 7, cur_dt 9, c_date_diff = 2, pr_date_diff = 2, cur_step_by_cnt 3
+					// eight itr: pos num 10 -- st_dt 5, pr_dt, 9, cur_dt 10, c_date_diff = 1, pr_date_diff = 2, pre_step_by_cnt = 3, cur_step_by_cnt 2
+					   // ---> stor db -> [st_dt 5 -- pre_step_by: 2 --- pre step cnt: 3]
+					// when rec_cnt == ($comb_rs_rec_cnt -1)
+					   // ---> stor db -> [st_dt 9 -- pre_step_by: 1 --- 2]
+					// 3-2 	= 1 [st_dt: 2 --- step_by: 1 -- 4]
+					// 4-3 	= 1   [2, 3, 4, 5]
+					// 5-4 	= 1
+					// 7-5 	= 2 [st_dt: 5 -- step_by: 2 -- 3]
+					// 9-7 	= 2 [5,7, 9]
+					// 10-9 = 1 [st_dt: 9 -- step_by: 1 -- 2]
+					//			[9,10]
+					
+					</pre>
+					</html>

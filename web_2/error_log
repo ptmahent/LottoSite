@@ -1,0 +1,23 @@
+[06-Oct-2011 11:54:35] PHP Warning:  include_once(inc/smarty/libs/Smarty.class.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home1/tswebtek/public_html/tswlotto/lotto/web_7/view_649.php on line 15
+[06-Oct-2011 11:54:35] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'inc/smarty/libs/Smarty.class.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/tswebtek/public_html/tswlotto/lotto/web_7/view_649.php on line 15
+[06-Oct-2011 13:54:36] PHP Fatal error:  Class 'Smarty' not found in /home1/tswebtek/public_html/tswlotto/lotto/web_7/view_649.php on line 170
+[06-Oct-2011 12:45:29] PHP Parse error:  syntax error, unexpected T_STRING in /home1/tswebtek/public_html/tswlotto/lotto/web_7/view_poker.php on line 325
+[06-Oct-2011 15:39:00] PHP Parse error:  syntax error, unexpected T_ELSE in /home1/tswebtek/public_html/tswlotto/lotto/web_7/check_keno.php on line 1142
+[15-Jan-2012 19:26:52] PHP Warning:  Division by zero in /home1/tswebtek/public_html/tswlotto/lotto/web_2/view_keno.php on line 526
+[15-Jan-2012 19:26:52] PHP Warning:  Division by zero in /home1/tswebtek/public_html/tswlotto/lotto/web_2/view_keno.php on line 527
+[15-Jan-2012 19:26:52] PHP Warning:  Division by zero in /home1/tswebtek/public_html/tswlotto/lotto/web_2/view_keno.php on line 528
+[15-Jan-2012 19:26:52] PHP Warning:  Division by zero in /home1/tswebtek/public_html/tswlotto/lotto/web_2/view_keno.php on line 529
+[15-Jan-2012 19:26:52] PHP Warning:  Division by zero in /home1/tswebtek/public_html/tswlotto/lotto/web_2/view_keno.php on line 530
+[15-Jan-2012 19:26:52] PHP Warning:  Division by zero in /home1/tswebtek/public_html/tswlotto/lotto/web_2/view_keno.php on line 531
+[15-Jan-2012 19:26:52] PHP Warning:  Division by zero in /home1/tswebtek/public_html/tswlotto/lotto/web_2/view_keno.php on line 532
+[16-Jan-2012 22:37:22] PHP Parse error:  syntax error, unexpected ')' in /home1/tswebtek/public_html/tswlotto/lotto/web_2/view_keno_year.php on line 551
+[16-Jan-2012 22:37:37] PHP Parse error:  syntax error, unexpected ')' in /home1/tswebtek/public_html/tswlotto/lotto/web_2/view_keno_year.php on line 551
+[16-Jan-2012 22:37:48] PHP Parse error:  syntax error, unexpected ')' in /home1/tswebtek/public_html/tswlotto/lotto/web_2/view_keno_year.php on line 551
+[16-Jan-2012 22:39:26] PHP Parse error:  syntax error, unexpected ')' in /home1/tswebtek/public_html/tswlotto/lotto/web_2/view_keno_year.php on line 551
+[21-Mar-2012 20:13:08] PHP Warning:  Division by zero in /home1/tswebtek/public_html/tswlotto/lotto/web_2/view_keno_year.php on line 575
+[21-Mar-2012 20:13:08] PHP Warning:  Division by zero in /home1/tswebtek/public_html/tswlotto/lotto/web_2/view_keno_year.php on line 576
+[21-Mar-2012 20:13:08] PHP Warning:  Division by zero in /home1/tswebtek/public_html/tswlotto/lotto/web_2/view_keno_year.php on line 577
+[21-Mar-2012 20:13:08] PHP Warning:  Division by zero in /home1/tswebtek/public_html/tswlotto/lotto/web_2/view_keno_year.php on line 578
+[21-Mar-2012 20:13:08] PHP Warning:  Division by zero in /home1/tswebtek/public_html/tswlotto/lotto/web_2/view_keno_year.php on line 579
+[21-Mar-2012 20:13:08] PHP Warning:  Division by zero in /home1/tswebtek/public_html/tswlotto/lotto/web_2/view_keno_year.php on line 580
+[21-Mar-2012 20:13:08] PHP Warning:  Division by zero in /home1/tswebtek/public_html/tswlotto/lotto/web_2/view_keno_year.php on line 581

@@ -1,0 +1,93 @@
+[04-Sep-2011 01:29:54] PHP Parse error:  syntax error, unexpected ';' in /home1/tswebtek/public_html/tswlotto/lotto/web3/check_649.php on line 522
+[04-Sep-2011 10:36:22] PHP Parse error:  syntax error, unexpected ';' in /home1/tswebtek/public_html/tswlotto/lotto/web3/check_649.php on line 522
+[04-Sep-2011 10:40:49] PHP Parse error:  syntax error, unexpected '.' in /home1/tswebtek/public_html/tswlotto/lotto/web3/check_649.php on line 686
+[04-Sep-2011 12:41:49] PHP Fatal error:  Uncaught exception 'SmartyException' with message 'Unable to load template file 'validate_numbers.tpl'' in /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/sysplugins/smarty_internal_template.php:163
+Stack trace:
+#0 /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/sysplugins/smarty_internal_template.php(552): Smarty_Internal_Template->isExisting(true)
+#1 /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/Smarty.class.php(338): Smarty_Internal_Template->getRenderedTemplate()
+#2 /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/Smarty.class.php(382): Smarty->fetch('validate_number...', NULL, NULL, NULL, true)
+#3 /home1/tswebtek/public_html/tswlotto/lotto/web3/check_649.php(691): Smarty->display('validate_number...')
+#4 {main}
+  thrown in /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/sysplugins/smarty_internal_template.php on line 163
+[04-Sep-2011 12:51:53] PHP Fatal error:  Uncaught exception 'SmartyCompilerException' with message 'Syntax Error in template "./templates/validate_numbers.tpl"  on line 326 "if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}"  - Unexpected ".", expected one of: "}" , " "' in /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php:441
+Stack trace:
+#0 /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/sysplugins/smarty_internal_templateparser.php(2889): Smarty_Internal_TemplateCompilerBase->trigger_template_error()
+#1 /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/sysplugins/smarty_internal_templateparser.php(2954): Smarty_Internal_Templateparser->yy_syntax_error(56, '.')
+#2 /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/sysplugins/smarty_internal_smartytemplatecompiler.php(51): Smarty_Internal_Templateparser->doParse(56, '.')
+#3 /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/sysplugin in /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 441
+[04-Sep-2011 13:05:28] PHP Fatal error:  Uncaught exception 'SmartyCompilerException' with message 'Syntax Error in template "/home1/tswebtek/tswlotto/web3/templates/validate_numbers.tpl"  on line 309 "if (a[i].indexOf(&quot;#&quot;)!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}" unknown tag "i"' in /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php:441
+Stack trace:
+#0 /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php(263): Smarty_Internal_TemplateCompilerBase->trigger_template_error('unknown tag "i"', 309)
+#1 /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/sysplugins/smarty_internal_templateparser.php(2356): Smarty_Internal_TemplateCompilerBase->compileTag('i', Array)
+#2 /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/sysplugins/smarty_internal_templateparser.php(2846): Smarty_Internal_Templateparser->yy_r38()
+#3 /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/sysplugi in /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 441
+[04-Sep-2011 11:30:02] PHP Parse error:  syntax error, unexpected '.' in /home1/tswebtek/public_html/tswlotto/lotto/web3/check_49.php on line 702
+[04-Sep-2011 11:31:50] PHP Parse error:  syntax error, unexpected '.' in /home1/tswebtek/public_html/tswlotto/lotto/web3/check_49.php on line 717
+[04-Sep-2011 13:32:42] PHP Fatal error:  Call to a member function assign() on a non-object in /home1/tswebtek/public_html/tswlotto/lotto/web3/check_49.php on line 544
+[04-Sep-2011 11:40:27] PHP Parse error:  syntax error, unexpected '.' in /home1/tswebtek/public_html/tswlotto/lotto/web3/check_keno.php on line 845
+[04-Sep-2011 11:46:18] PHP Parse error:  syntax error, unexpected '.' in /home1/tswebtek/public_html/tswlotto/lotto/web3/check_pick3.php on line 491
+[04-Sep-2011 11:48:08] PHP Parse error:  syntax error, unexpected '<' in /home1/tswebtek/public_html/tswlotto/lotto/web3/check_pick4.php on line 588
+[05-Sep-2011 10:27:52] PHP Parse error:  syntax error, unexpected '?' in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_poker.php on line 170
+[05-Sep-2011 14:00:34] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_649.php on line 211
+[06-Sep-2011 17:34:13] PHP Fatal error:  Uncaught exception 'SmartyCompilerException' with message 'Syntax Error in template "/home1/tswebtek/tswlotto/web3/templates/view_numbers.tpl"  on line 183 "if (a[i].indexOf(&quot;#&quot;)!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}" unknown tag "i"' in /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php:441
+Stack trace:
+#0 /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php(263): Smarty_Internal_TemplateCompilerBase->trigger_template_error('unknown tag "i"', 183)
+#1 /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/sysplugins/smarty_internal_templateparser.php(2356): Smarty_Internal_TemplateCompilerBase->compileTag('i', Array)
+#2 /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/sysplugins/smarty_internal_templateparser.php(2846): Smarty_Internal_Templateparser->yy_r38()
+#3 /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/sysplugins/s in /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php on line 441
+[07-Sep-2011 07:37:48] PHP Warning:  Header may not contain more than a single header, new line detected. in /home1/tswebtek/public_html/tswlotto/lotto/web3/index.php on line 2
+[07-Sep-2011 08:02:24] PHP Parse error:  syntax error, unexpected '.' in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_649_winnings.php on line 296
+[07-Sep-2011 10:19:44] PHP Fatal error:  Call to a member function na649GetFirstLastDataAvail() on a non-object in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_49.php on line 167
+[07-Sep-2011 10:21:00] PHP Fatal error:  Call to undefined method OLGLottery::on49GetFirstLastDataAvail() in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_49.php on line 167
+[07-Sep-2011 08:36:36] PHP Parse error:  syntax error, unexpected '.' in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_49_winnings.php on line 299
+[07-Sep-2011 10:47:47] PHP Parse error:  syntax error, unexpected '.' in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_max_winnings.php on line 344
+[07-Sep-2011 10:58:59] PHP Parse error:  syntax error, unexpected '<' in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_lottario_winnings.php on line 270
+[07-Sep-2011 11:32:09] PHP Parse error:  syntax error, unexpected '.' in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_max_winnings.php on line 344
+[07-Sep-2011 11:36:34] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_lottario_winnings.php on line 285
+[07-Sep-2011 11:37:15] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_lottario_winnings.php on line 285
+[07-Sep-2011 11:40:45] PHP Parse error:  syntax error, unexpected '.' in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_max_winnings.php on line 344
+[07-Sep-2011 13:50:21] PHP Parse error:  syntax error, unexpected '.' in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_keno_winnings.php on line 356
+[07-Sep-2011 13:51:49] PHP Parse error:  syntax error, unexpected '.' in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_keno_winnings.php on line 356
+[08-Sep-2011 19:51:10] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_649_winnings.php on line 29
+[08-Sep-2011 19:55:17] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_649_winnings.php on line 29
+[08-Sep-2011 19:59:05] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_649_winnings.php on line 29
+[08-Sep-2011 20:08:33] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_649_winnings.php on line 29
+[08-Sep-2011 20:40:52] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_649_winnings.php on line 29
+[08-Sep-2011 20:52:07] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_649_winnings.php on line 29
+[08-Sep-2011 21:12:22] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_649_winnings.php on line 29
+[08-Sep-2011 21:12:24] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_649_winnings.php on line 29
+[08-Sep-2011 21:12:57] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_649_winnings.php on line 29
+[08-Sep-2011 21:15:05] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_649_winnings.php on line 29
+[09-Sep-2011 12:25:15] PHP Parse error:  syntax error, unexpected ':' in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_encore.php on line 268
+[09-Sep-2011 12:25:43] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_encore.php on line 279
+[09-Sep-2011 12:25:51] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_encore.php on line 279
+[09-Sep-2011 12:26:55] PHP Parse error:  syntax error, unexpected '*' in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_encore.php on line 267
+[09-Sep-2011 12:26:58] PHP Parse error:  syntax error, unexpected '*' in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_encore.php on line 267
+[12-Sep-2011 12:52:24] PHP Parse error:  syntax error, unexpected '{' in /home1/tswebtek/public_html/tswlotto/lotto/web3/check_649.php on line 551
+[12-Sep-2011 15:19:46] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home1/tswebtek/public_html/tswlotto/lotto/inc/incVARS.php on line 7
+[13-Sep-2011 17:05:14] PHP Fatal error:  Uncaught exception 'SmartyException' with message 'Unable to load template file 'quick_numbers.tpl'' in /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/sysplugins/smarty_internal_template.php:163
+Stack trace:
+#0 /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/sysplugins/smarty_internal_template.php(552): Smarty_Internal_Template->isExisting(true)
+#1 /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/Smarty.class.php(338): Smarty_Internal_Template->getRenderedTemplate()
+#2 /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/Smarty.class.php(382): Smarty->fetch('quick_numbers.t...', NULL, NULL, NULL, true)
+#3 /home1/tswebtek/public_html/tswlotto/lotto/web3/quick_649.php(190): Smarty->display('quick_numbers.t...')
+#4 {main}
+  thrown in /home1/tswebtek/public_html/tswlotto/lotto/web3/inc/smarty/libs/sysplugins/smarty_internal_template.php on line 163
+[14-Sep-2011 13:57:53] PHP Parse error:  syntax error, unexpected T_CONCAT_EQUAL in /home1/tswebtek/public_html/tswlotto/lotto/web3/welcome.php on line 65
+[14-Sep-2011 13:58:54] PHP Parse error:  syntax error, unexpected T_CONCAT_EQUAL in /home1/tswebtek/public_html/tswlotto/lotto/web3/welcome.php on line 65
+[14-Sep-2011 13:58:58] PHP Parse error:  syntax error, unexpected T_CONCAT_EQUAL in /home1/tswebtek/public_html/tswlotto/lotto/web3/welcome.php on line 65
+[27-Sep-2011 11:30:53] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/tswebtek/public_html/tswlotto/lotto/web3/check_lottario.php on line 925
+[27-Sep-2011 15:37:28] PHP Parse error:  syntax error, unexpected '.' in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_49.php on line 316
+[27-Sep-2011 23:52:08] PHP Parse error:  syntax error, unexpected '.' in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_encore_winnings.php on line 370
+[28-Sep-2011 06:46:40] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_poker_winnings.php on line 371
+[28-Sep-2011 08:02:20] PHP Parse error:  syntax error, unexpected '=' in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_lottario.php on line 345
+[28-Sep-2011 08:30:37] PHP Parse error:  syntax error, unexpected '.' in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_max_winnings.php on line 297
+[28-Sep-2011 08:31:11] PHP Parse error:  syntax error, unexpected '.' in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_max_winnings.php on line 334
+[28-Sep-2011 08:31:50] PHP Parse error:  syntax error, unexpected '.' in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_max_winnings.php on line 377
+[28-Sep-2011 11:29:58] PHP Parse error:  syntax error, unexpected '.' in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_keno_winnings.php on line 391
+[05-Oct-2011 09:08:43] PHP Parse error:  syntax error, unexpected '}' in /home1/tswebtek/public_html/tswlotto/lotto/web3/welcome.php on line 71
+[05-Oct-2011 09:09:14] PHP Parse error:  syntax error, unexpected ';' in /home1/tswebtek/public_html/tswlotto/lotto/web3/welcome.php on line 82
+[05-Oct-2011 09:11:13] PHP Parse error:  syntax error, unexpected $end in /home1/tswebtek/public_html/tswlotto/lotto/web3/welcome.php on line 465
+[05-Oct-2011 21:12:08] PHP Parse error:  syntax error, unexpected ';' in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_max.php on line 104
+[05-Oct-2011 21:14:04] PHP Parse error:  syntax error, unexpected ';' in /home1/tswebtek/public_html/tswlotto/lotto/web3/view_max.php on line 110
+[08-Oct-2011 14:57:12] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 2621360 bytes) in /home1/tswebtek/public_html/tswlotto/lotto/web3/check_keno.php on line 766
