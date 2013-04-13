@@ -1,0 +1,411 @@
+[IE 10 - Quirk Mode]
+ js 
+ flexbox 
+ no-flexboxlegacy 
+ canvas 
+ canvastext 
+ no-webgl 
+ no-touch 
+ geolocation 
+ postmessage 
+ no-websqldatabase 
+ indexeddb 
+ hashchange 
+ history 
+ draganddrop 
+ websockets 
+ rgba 
+ hsla 
+ multiplebgs 
+ backgroundsize 
+ no-borderimage 
+ borderradius 
+ boxshadow 
+ textshadow 
+ opacity 
+ cssanimations 
+ csscolumns 
+ cssgradients 
+ no-cssreflections 
+ csstransforms 
+ csstransforms3d 
+ csstransitions 
+ fontface 
+ generatedcontent 
+ video 
+ audio 
+ localstorage 
+ sessionstorage 
+ webworkers 
+ applicationcache 
+ svg inlinesvg 
+ no-smil 
+ svgclippaths
+ 
+ 
+[IE 10 - Standard] 
+js 
+flexbox 
+no-flexboxlegacy 
+canvas 
+canvastext 
+no-webgl 
+no-touch 
+geolocation 
+postmessage 
+no-websqldatabase 
+indexeddb 
+hashchange 
+history 
+draganddrop 
+websockets 
+rgba 
+hsla 
+multiplebgs 
+backgroundsize 
+no-borderimage 
+borderradius 
+boxshadow 
+textshadow 
+opacity 
+cssanimations 
+csscolumns 
+cssgradients 
+no-cssreflections 
+csstransforms 
+csstransforms3d 
+csstransitions 
+fontface 
+generatedcontent 
+video 
+audio 
+localstorage 
+sessionstorage 
+webworkers 
+applicationcache 
+svg 
+inlinesvg 
+no-smil 
+svgclippaths
+ 
+ 
+ [IE 10 - IE 9 Standards]
+ 
+
+ js 
+ no-flexbox 
+ no-flexboxlegacy 
+ canvas 
+ canvastext 
+ no-webgl 
+ no-touch 
+ geolocation 
+ postmessage 
+ no-websqldatabase 
+ no-indexeddb 
+ hashchange 
+ no-history 
+ draganddrop 
+ no-websockets 
+ rgba 
+ hsla 
+ multiplebgs 
+ backgroundsize 
+ no-borderimage 
+ borderradius 
+ boxshadow 
+ no-textshadow 
+ opacity 
+ no-cssanimations 
+ no-csscolumns 
+ no-cssgradients 
+ no-cssreflections 
+ csstransforms 
+ no-csstransforms3d 
+ no-csstransitions 
+ fontface 
+ generatedcontent 
+ video 
+ audio 
+ localstorage 
+ sessionstorage 
+ no-webworkers 
+ no-applicationcache 
+ svg 
+ inlinesvg 
+ no-smil 
+ svgclippaths
+ 
+ [IE 10 - IE 8 Standard ]
+ js 
+ no-flexbox 
+ no-flexboxlegacy 
+ no-canvas 
+ no-canvastext 
+ no-webgl 
+ no-touch 
+ no-geolocation 
+ postmessage 
+ no-websqldatabase 
+ no-indexeddb 
+ hashchange 
+ no-history 
+ draganddrop 
+ no-websockets 
+ no-rgba 
+ no-hsla 
+ no-multiplebgs 
+ no-backgroundsize 
+ no-borderimage 
+ no-borderradius 
+ no-boxshadow 
+ no-textshadow 
+ no-opacity 
+ no-cssanimations 
+ no-csscolumns 
+ no-cssgradients 
+ no-cssreflections 
+ no-csstransforms 
+ no-csstransforms3d 
+ no-csstransitions 
+ fontface 
+ generatedcontent 
+ no-video 
+ no-audio 
+ localstorage 
+ sessionstorage 
+ no-webworkers 
+ no-applicationcache 
+ no-svg 
+ no-inlinesvg 
+ no-smil 
+ no-svgclippaths
+ 
+ 
+ 
+ [IE 10 - IE 7 Standard]
+js 
+no-flexbox 
+no-flexboxlegacy 
+no-canvas 
+no-canvastext 
+no-webgl 
+no-touch 
+no-geolocation 
+postmessage 
+no-websqldatabase 
+no-indexeddb 
+no-hashchange 
+no-history 
+draganddrop 
+no-websockets 
+no-rgba 
+no-hsla 
+no-multiplebgs 
+no-backgroundsize 
+no-borderimage 
+no-borderradius 
+no-boxshadow 
+no-textshadow 
+no-opacity 
+no-cssanimations 
+no-csscolumns 
+no-cssgradients 
+no-cssreflections 
+no-csstransforms 
+no-csstransforms3d 
+no-csstransitions 
+fontface 
+no-generatedcontent 
+no-video 
+no-audio 
+localstorage 
+sessionstorage 
+no-webworkers 
+no-applicationcache 
+no-svg 
+no-inlinesvg 
+no-smil 
+no-svgclippaths
+
+
+[IE 10 - IE 5]
+js 
+no-flexbox 
+no-flexboxlegacy 
+no-canvas 
+no-canvastext 
+no-webgl 
+no-touch 
+no-geolocation 
+postmessage 
+no-websqldatabase 
+no-indexeddb 
+no-hashchange 
+no-history 
+draganddrop 
+no-websockets 
+no-rgba 
+no-hsla 
+no-multiplebgs 
+no-backgroundsize 
+no-borderimage 
+no-borderradius 
+no-boxshadow 
+no-textshadow 
+no-opacity 
+no-cssanimations 
+no-csscolumns 
+no-cssgradients 
+no-cssreflections 
+no-csstransforms 
+no-csstransforms3d 
+no-csstransitions 
+fontface 
+no-generatedcontent 
+no-video 
+no-audio 
+localstorage 
+sessionstorage 
+no-webworkers 
+no-applicationcache 
+no-svg 
+no-inlinesvg 
+no-smil 
+no-svgclippaths
+
+[IE 9 - IE 9 Standard]
+
+js 
+no-flexbox 
+no-flexboxlegacy 
+canvas 
+canvastext 
+no-webgl 
+no-touch 
+geolocation 
+postmessage 
+no-websqldatabase 
+no-indexeddb 
+hashchange 
+no-history 
+draganddrop 
+no-websockets 
+rgba 
+hsla 
+multiplebgs 
+backgroundsize 
+no-borderimage 
+borderradius 
+boxshadow 
+no-textshadow 
+opacity 
+no-cssanimations 
+no-csscolumns 
+no-cssgradients 
+no-cssreflections 
+csstransforms 
+no-csstransforms3d 
+no-csstransitions 
+fontface 
+generatedcontent 
+video 
+audio 
+localstorage 
+sessionstorage 
+no-webworkers 
+no-applicationcache 
+svg 
+inlinesvg 
+no-smil 
+svgclippaths
+
+[IE 9 - IE 8 Standard]
+js 
+no-flexbox 
+no-flexboxlegacy 
+no-canvas 
+no-canvastext 
+no-webgl 
+no-touch 
+no-geolocation 
+postmessage 
+no-websqldatabase 
+no-indexeddb 
+hashchange 
+no-history 
+draganddrop 
+no-websockets 
+no-rgba 
+no-hsla 
+no-multiplebgs 
+no-backgroundsize 
+no-borderimage 
+no-borderradius 
+no-boxshadow 
+no-textshadow 
+no-opacity 
+no-cssanimations 
+no-csscolumns 
+no-cssgradients 
+no-cssreflections 
+no-csstransforms 
+no-csstransforms3d 
+no-csstransitions 
+fontface 
+generatedcontent 
+no-video 
+no-audio 
+localstorage 
+sessionstorage 
+no-webworkers 
+no-applicationcache 
+no-svg 
+no-inlinesvg 
+no-smil 
+no-svgclippaths
+
+[IE 9 - IE 7 Standard]
+ js 
+ no-flexbox 
+ no-flexboxlegacy 
+ no-canvas 
+ no-canvastext 
+ no-webgl 
+ no-touch 
+ no-geolocation 
+ postmessage 
+ no-websqldatabase 
+ no-indexeddb 
+ no-hashchange 
+ no-history 
+ draganddrop 
+ no-websockets 
+ no-rgba 
+ no-hsla 
+ no-multiplebgs 
+ no-backgroundsize 
+ no-borderimage 
+ no-borderradius 
+ no-boxshadow 
+ no-textshadow 
+ no-opacity 
+ no-cssanimations 
+ no-csscolumns 
+ no-cssgradients 
+ no-cssreflections 
+ no-csstransforms 
+ no-csstransforms3d 
+ no-csstransitions 
+ fontface 
+ no-generatedcontent 
+ no-video 
+ no-audio 
+ localstorage 
+ sessionstorage 
+ no-webworkers 
+ no-applicationcache 
+ no-svg 
+ no-inlinesvg 
+ no-smil 
+ no-svgclippaths
